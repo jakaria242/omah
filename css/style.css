@@ -19,12 +19,17 @@ h1,h2,h3,h4,h5,h6,p{
     width: 1170px;
     margin: 0 auto;
 }
+
+.nav_bars{
+    font-size: 22px;
+    cursor: pointer;
+}
 /* All Common Css End Here  */
 
 
 /* Navbar Start Here  */
 nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -203,7 +208,7 @@ nav{
     padding-top: 56px;
     display: flex;
     align-items: center;
-    column-gap: 72px;
+    row-gap: 40px;
 }
 .bnr_counter_box{
     width: 149px;
@@ -577,7 +582,7 @@ nav{
  /* contract End Here */
 
 
-/* Navbar Start Here  */
+/* footer Start Here  */
 footer{
     padding: 31px 0;
     background: #203239;
